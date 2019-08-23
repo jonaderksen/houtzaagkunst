@@ -1,0 +1,6 @@
+<footer>
+   <a *ngFor="let menuItem of menuItems" [routerLink]="'/' + menuItem.route">
+     {{ menuItem.title }}
+   </a>
+  {{ text }} &copy;
+</footer>
